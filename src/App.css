@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .input {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .input input {
+    padding: 0.6rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 250px;
+  }
+  
+  .input .btn {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .input .btn:hover {
+    background-color: #125ca1;
+  }
+  
+  .error {
+    color: #e53935;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .pokemon-info {
+    text-align: center;
+  }
+  
+  .pokemon-info img {
+    width: 150px;
+    height: 150px;
+    margin: 1rem 0;
+  }
+  
+  .pokemon-info h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .pokemon-info ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 600px;
+  }
+  
+  .pokemon-info ul li {
+    padding: 0.3rem 0;
+    text-transform: capitalize;
+    color: #444;
+  }
+  
+  .columns {
+    columns: 2;
+    gap: 2rem;
+  }
+  
+  .moveList {
+    list-style-type: disc;
+  }
+  
+  .ability-desc {
+    font-style: italic;
+    font-size: 0.95rem;
+    color: #222;
+  }
+  
+  .flavor {
+    font-style: italic;
+    color: #222;
+    font-size: 0.95rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .evolution-chain-tree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .evo-node {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .evo-children {
+    display: flex;
+    gap: 2rem;
+    margin-top: 0.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .evo-node img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+  }
+  
+  .arrow {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .evo-branch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
