@@ -5,3 +5,9 @@
 =======
 # EndTermProject
 >>>>>>> adf9cdf137d435aa625b5f74770c68bd98a44368
+Name = Vansh Srivastava
+Roll No. = 24BCS10567
+Hello Sir,
+This is my Project for the End Term.This project is entirely built on React and consists of data fetched from PokeAPI an api which allows us to fetch and display data of pokemons, so using that I have built an application that when we enter the serial no. of any pokemon(1-1025), it displays the pokemon,its typing,the moves it learns and several other details about it.
+Thank You.
+>>>>>>> Been a big fan of Pokemon since my childhood.
