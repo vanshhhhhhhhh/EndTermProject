@@ -4,7 +4,7 @@
 ![image](https://github.com/user-attachments/assets/cf64f611-486c-4726-a724-ae0aeeb663f3)
 =======
 # EndTermProject
->>>>>>> adf9cdf137d435aa625b5f74770c68bd98a44368
+
 Name = Vansh Srivastava
 Roll No. = 24BCS10567
 Hello Sir,
